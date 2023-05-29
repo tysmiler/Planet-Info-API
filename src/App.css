@@ -1,38 +1,67 @@
-.App {
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url(./Images/vecteezy_galaxy-background-with-falling-star-vector-space-galaxy_7120314.jpg);
+  background-repeat: 1;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Title */
+
+
+.input {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    color: bl;
+}
+
+input {
+  width: 300px;
+  padding: 5px 15px;
+}
+
+/* Planet Card */
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-top: 60px;
+  padding: 0 20px;
+  color: #F5F2D0;
+}
+
+
+.top {
+  display: flex;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 4rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mass {
+  margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info {
+  padding-left: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
